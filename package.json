@@ -22,5 +22,8 @@
     "postcss": "^6.0.1",
     "postcss-color-function": "^4.0.0",
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
   }
 }
