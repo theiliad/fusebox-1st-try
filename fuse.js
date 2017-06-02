@@ -1,6 +1,8 @@
 const { FuseBox, CSSPlugin,
         PostCSSPlugin, UglifyJSPlugin }         = require("fuse-box");
+
 const colorFunction                             = require("postcss-color-function");
+const autoprefixer = require('autoprefixer');
 
 const fuse = FuseBox.init({
     homeDir:    "src",
@@ -12,7 +14,7 @@ const fuse = FuseBox.init({
     plugins : [
         [
             PostCSSPlugin(
-                colorFunction
+                [ colorFunction, autoprefixer ]
             ),
             CSSPlugin({
                 group: "bundle.css"
