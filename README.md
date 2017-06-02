@@ -1,4 +1,4 @@
-# fusebox-1st-try
+# fusebox-1st-try 🎉
 Trying out fuse-box as a replacement for Webpack2
 
 ### To Run:
