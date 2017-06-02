@@ -1,5 +1,6 @@
-const { FuseBox, CSSPlugin, PostCSSPlugin }     = require("fuse-box");
-const colorFunction                             = require("postcss-color-function")
+const { FuseBox, CSSPlugin,
+        PostCSSPlugin, UglifyJSPlugin }         = require("fuse-box");
+const colorFunction                             = require("postcss-color-function");
 
 const fuse = FuseBox.init({
     homeDir:    "src",
@@ -16,7 +17,8 @@ const fuse = FuseBox.init({
             CSSPlugin({
                 group: "bundle.css"
             })
-        ]
+        ],
+        UglifyJSPlugin()
     ]
 });
 fuse.bundle("app")

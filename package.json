@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/theiliad/fusebox-1st-try#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "fuse-box": "^2.0.12",
     "postcss": "^6.0.1",
     "postcss-color-function": "^4.0.0",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4",
+    "uglify-js": "^3.0.15"
   },
   "dependencies": {
+    "bulma": "^0.4.2",
     "http-server": "^0.10.0"
   }
 }
