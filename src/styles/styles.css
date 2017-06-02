@@ -1,0 +1,11 @@
+html, body {
+    font-size: 35px;
+}
+
+:root { 
+  --red: #d33;
+}
+
+a {
+    color: color(red a(50%));
+}

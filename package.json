@@ -1,0 +1,26 @@
+{
+  "name": "fusebox-1st-try",
+  "version": "1.0.0",
+  "description": "Testing out fuse-box",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fuse.js && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theiliad/fusebox-1st-try.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theiliad/fusebox-1st-try/issues"
+  },
+  "homepage": "https://github.com/theiliad/fusebox-1st-try#readme",
+  "devDependencies": {
+    "fuse-box": "^2.0.12",
+    "postcss": "^6.0.1",
+    "postcss-color-function": "^4.0.0",
+    "typescript": "^2.3.4"
+  }
+}
